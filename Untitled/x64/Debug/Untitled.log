@@ -1,0 +1,24 @@
+﻿  main.cpp
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(20,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(20,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(29,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(29,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(29,12): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(30,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(31,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(32,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(33,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(50,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Asus\source\repos\Untitled\Untitled\main.cpp(85,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutBitmapCharacter referenced in function "void __cdecl drawBitmap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?drawBitmap@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+F:\glset\freeglut\lib\freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+F:\glset\glew-1.11.0\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Asus\source\repos\Untitled\x64\Debug\Untitled.exe : fatal error LNK1120: 9 unresolved externals
